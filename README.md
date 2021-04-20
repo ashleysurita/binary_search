@@ -1,7 +1,8 @@
 # binary_search
 
 ### Problem: 
-```function binarySearch(array, target) {
+```
+function binarySearch(array, target) {
     // Write your code here.
     return -1
 }
