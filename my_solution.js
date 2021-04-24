@@ -7,7 +7,6 @@ function binarySearch(array, target) {
     while(left <= right){
         const mid = Math.floor(left + (( right - left ) / 2 ))
         if(array[mid] === target){
-            console.log('check', array[mid] === target)
             return mid}
         
         else if(target < array[mid]) right = mid - 1
